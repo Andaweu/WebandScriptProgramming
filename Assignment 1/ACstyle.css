@@ -6,7 +6,7 @@
 }
 
 body {
-    background-image: linear-gradient(to bottom right ,#FCB34C,#FF9400);
+    background-image: linear-gradient(to bottom right ,white,#FF9400);
     font-family: 'Nunito Sans', 'Open Sans', Verdana, Geneva, Arial, sans-serif;
     padding:0px;
     margin:0px;
@@ -145,3 +145,23 @@ p label{
   background-color: #FCB34C;
   color: darkslategrey;
 }
+
+.dropdownbutton{
+  background-color: #006EB3;
+  color: white;
+  padding: 20px;
+  border: none;
+  cursor: pointer;
+}
+
+.dropdownbutton:hover, .dropdownbutton:focus {
+  color: black;
+  background-color: white;
+}
+
+.dropdown {
+  display: inline-block;
+  position: relative;
+
+}
+
