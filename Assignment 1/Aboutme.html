@@ -1,0 +1,67 @@
+<DOCTYPE HTML>
+    <html>
+        <head>
+            <meta charset="UTF-8">
+            <title>About Me</title>
+            <link href="ACstyle.css" rel="stylesheet" type="text/css">
+            <link rel="icon" type="image/x-icon" href="Obamna.png">
+            <script src="Assignment1Javascript.js"></script>
+            <!--Nunito Sans font fromm fonts.google.com-->
+            <link rel="preconnect" href="https://fonts.googleapis.com">
+            <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+            <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz@6..12&family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+        </head>
+        <body>
+            <div id="wrapper">
+            
+            <div id="banner"></div>
+    
+            <div class="Navigation">
+                <img src="Face Picture.jpg" width="40" height="38">
+                <a href="Assignment1.html">Home</a>
+                <a class ="active" href="Aboutme.html">About Me</a>
+                <a href="#Projects">Projects</a>
+                <a href="Contactme.html">Contact Me</a>
+                <a href="#" onclick="playSound()">Play a funny sound</a>
+                
+
+              </div>
+
+            <div id="paragraph">
+                <h1>About me</h1>
+                <h2>This website talks a little bit about myself and shows some of my projects.
+                    <br>I am currently a second year student at Ontario Tech University in the IT and Network Security Program.
+                    <br>Some of my passions include building servers/computers, Pokemon TCG, Yu-Gi-Oh, and Video Games.
+                    <br>
+                </h2>
+
+            </div>
+            <div id="VideoFormat">
+            <video id="video" alt="Video about Andrew Chester" controls width="320" height="240" poster="AmogusBin.jpg" loop preload="auto">
+            <source src="on_record.mp4" type="video/mp4">
+            <source src="on_record.ogv" type="video/ogv">
+            </video>
+            <br>
+            <button id="VideoButton" onclick="playPause()">Play/Pause the video</button>
+            <script>
+                var myVideo=document.getElementById("video");
+                function playPause()
+                {
+                    if(myVideo.paused) myVideo.play();
+                    else myVideo.pause();
+                }
+            </script>
+            </div>
+            <div class="Amogus">
+                <img src="AmogusBin.jpg" width="300" height="500" alt="An Amogus Trash Bin">
+            </div>
+            <div class="PageFooter">
+                <footer>
+                    <p>Webpage by Andrew Chester <br> Contact me at: </p>
+                    <a href="andrew.chester@ontariotechu.net">andrew.chester@ontariotechu.net </a>
+                </footer>
+            </div>
+        </body>
+
+    </html>
+    </DOCTYPE>

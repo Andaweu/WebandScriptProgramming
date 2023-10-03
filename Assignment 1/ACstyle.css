@@ -1,0 +1,147 @@
+
+
+.clear
+{
+    clear: both;
+}
+
+body {
+    background-image: linear-gradient(to bottom right ,#FCB34C,#FF9400);
+    font-family: 'Nunito Sans', 'Open Sans', Verdana, Geneva, Arial, sans-serif;
+    padding:0px;
+    margin:0px;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+#wrapper {
+  width: 960px;height: 1200;
+  margin-left: auto;
+  margin-right: auto;
+
+  background-color: rgb(122, 122, 122);
+}
+
+
+
+.Navigation {
+    background-color: #333;
+    overflow: hidden;
+  }
+  
+  .Navigation a {
+    float: left;
+    color: white;
+    text-align: left;
+    padding: 10px 16px;
+    text-decoration: none;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 20px;
+  }
+  
+  .Navigation img {
+    float: left;
+    align-self: left;
+
+  }
+
+  .Navigation a:hover {
+    background-color: rgb(224, 224, 224);
+    color: black;
+  }
+
+
+  .Navigation a.active {
+    background-color: #87cefa;
+    color: white;
+  }
+
+  .Navigation h2 {
+    float: right;
+    color: white;
+    text-align: right;
+    padding: 0px 16px;
+    text-decoration: none;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+  }
+
+#paragraph{
+  overflow: hidden;
+}
+
+  #paragraph h1{
+  color: white;
+  text-align: center;
+  font-family: 'Nunito Sans', 'sans-serif';
+  font-size: 48px;
+  }
+
+  #paragraph h2{
+  font-family: 'Nunito Sans', sans-serif;
+  font-size: larger;
+  line-height: 150%;
+  color: white;
+  text-align: center;
+  }
+
+#maintext{
+  font-family: 'Nunito Sans', sans-serif;
+  padding-top: 40px;
+  line-height: 150%;
+  color: white;
+  text-align: center;
+  font-size: 36;
+}
+
+.Amogus{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 30%;
+}
+
+#VideoFormat{
+  text-align:center;
+}
+
+#VideoButton{
+  font-family: 'Nunito Sans', 'sans-serif';
+  background-color: #B36800;
+  width: 33.5%;
+  height: 50px;
+
+}
+
+p label{
+  color: white;
+  font-family: 'Nunito Sans', 'sans-serif';
+  text-align: center;
+
+}
+.PageFooter{
+  margin-top: auto;
+}
+.PageFooter h2{
+  display: inline-block;
+}
+.PageFooter a{
+  float: left;
+}
+
+#SubmitButton input{
+  background-color: #B36800;
+  border: none;
+  padding: 10px 40px;
+  font-family: 'Nunito Sans', 'sans-serif';
+  color: rgb(226, 225, 225);
+  font-size: 20px;
+
+}
+
+#SubmitButton input:hover{
+  background-color: #FCB34C;
+  color: darkslategrey;
+}

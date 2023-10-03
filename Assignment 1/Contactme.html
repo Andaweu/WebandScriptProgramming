@@ -1,0 +1,62 @@
+<DOCTYPE HTML>
+    <html>
+        <head>
+            <meta charset="UTF-8">
+            <title>Andrew Chester's WebPage</title>
+            <link href="ACstyle.css" rel="stylesheet" type="text/css">
+            <link rel="icon" type="image/x-icon" href="Obamna.png">
+            <script src="Assignment1Javascript.js"></script>
+            <!--Nunito Sans font fromm fonts.google.com-->
+            <link rel="preconnect" href="https://fonts.googleapis.com">
+            <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+            <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz@6..12&family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+        </head>
+        <body>
+            <div id="wrapper">
+            
+            <div id="banner"></div>
+    
+            <div class="Navigation">
+                <img src="Face Picture.jpg" width="40" height="38" alt="Andrew Chester in a Hat and Jacket">
+                <a href="Assignment1.html">Home</a>
+                <a href="Aboutme.html">About Me</a>
+                <a href="#Projects">Projects</a>
+                <a class="active" href="Contactme.html">Contact Me</a>
+                <a href="#" onclick="playSound()">Play a funny sound</a>
+              </div>
+
+            <div id="title" style="text-align: center;">
+                <h1>Contact Me!</h1>
+                <form action="mailto:andrew.chester@ontariotechu.net" ?subject="Greetings!" enctype="text/plain" method="get">
+                    <p>
+                        <label for="Name" >Name: </label><br>
+                        <input type="text" name="name" size="40" placeholder="Enter your name here" required>
+                    </p>
+                    <p>
+                        <label for="email" >Email: </label><br>
+                        <input type="email" name="email" size="40" placeholder="Enter your email address here" required>
+                    </p>
+                    <p>
+                        <label for="Phone" >Phone Number (optional): </label><br>
+                        <input type="tel" name="phonenumber" size="10" placeholder="Enter your #">
+                    </p>
+                    <p>
+                        <label for="feedback" >Comments or Questions: </label><br>
+                        <textarea name="feedback" cols="60" rows="10"></textarea>
+                    </p>
+                    <p>
+                        <div id="SubmitButton">
+                        <input type="submit" value="Submit"></button>
+                        </div>
+                    </p>
+                </form>
+            </div>
+            <div class="PageFooter">
+                <footer>
+                    <p>Webpage by Andrew Chester <br> Contact me at: </p>
+                    <a href="andrew.chester@ontariotechu.net">andrew.chester@ontariotechu.net </a>
+                </footer>
+            </div>
+        </body>
+    </html>
+    </DOCTYPE>
